@@ -40,7 +40,7 @@ document.querySelector('.search-bar input').addEventListener('focus', function()
     }
 
     // Create a new audio object for the search bar sound
-    currentSound = new Audio('sound5.mp3');
+    currentSound = new Audio('audio.mp3');
     currentSound.play();
 
     // Apply shaking effect to the logo
